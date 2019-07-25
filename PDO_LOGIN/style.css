@@ -1,0 +1,66 @@
+body{
+padding:0;
+margin: 0;
+background:gray;
+}
+#nt{
+position: absolute;
+font-weight: bold;
+font-size: 30px;
+color:white;
+
+
+}
+
+#et{
+position: absolute;
+font-weight: bold;
+font-size: 30px;
+color:white;
+
+
+}
+#pt{
+position: absolute;
+font-weight: bold;
+font-size: 30px;
+color:white;
+
+
+}
+#submit{
+margin: right;
+position: absolute;
+width:100px;
+height: 50px;
+right:300;
+
+}
+#errort{
+position: absolute;
+color:red;
+animation:emassanim 3s linear 0s 1;
+}
+@keyframes emassanim{
+0%{
+
+}20%{
+left:5px;
+}
+
+40%{
+right:5px;
+}
+
+60%{
+left:5px;
+}
+80%{
+right:5px;
+}
+
+100%{
+left:5px;
+}
+
+}
